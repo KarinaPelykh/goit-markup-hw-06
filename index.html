@@ -421,23 +421,28 @@
             </li>
           </ul>
         </div>
-        <form class="form-subscribe">
-          <div class="container-subscribe">
-            <p class="text-subscribe">Subscribe</p>
-            <label class="form-lable-subscribe" for="Subscribe">
-              <input
-                class="form-input-subscribe"
-                type="text"
-                id="Subscribe"
-                placeholder="E-mail"
-              />
-              <svg class="icon-modal-footer" wigth="24px" height="20px">
+
+        <div class="container-subscribe">
+          <p class="text-subscribe">Subscribe</p>
+          <form class="form-subscribe">
+            <!-- <label class="form-lable-subscribe" for="Subscribe"> -->
+            <input
+              class="form-input-subscribe"
+              type="text"
+              id="Subscribe"
+              placeholder="E-mail"
+            />
+            <button class="button-modal" type="submit">
+              Subscribe<svg
+                class="icon-modal-footer"
+                wigth="24px"
+                height="20px"
+              >
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
-              <button class="button-modal" type="button">Subscribe</button>
-            </label>
-          </div>
-        </form>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <section class="modal-section">
@@ -527,9 +532,8 @@
               <span class="modal-link"
                 >I accept the terms and conditions of the
                 <a class="modal-input-link" href="">Privacy Policy</a>
-              </span>
-            </label>
-            <button type="submit" class="button">Send</button>
+              </span> </label
+            ><button type="submit" class="button">Send</button>
           </form>
         </div>
       </div>
